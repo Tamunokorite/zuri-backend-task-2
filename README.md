@@ -37,7 +37,7 @@ To get started with this project, follow these steps:
 
 
 ## Configuration
-# Firebase Configuration
+### Firebase Configuration
 1. Create a Firebase project on the Firebase Console (https://console.firebase.google.com/).
 
 2. Obtain your Firebase Admin SDK credentials JSON file and place it in the project directory.
@@ -46,25 +46,25 @@ To get started with this project, follow these steps:
 ## Usage
 You can run the API in development or production mode.
 
-# Start the API (Development Mode)
+### Start the API (Development Mode)
     ```bash
     npm run dev
     ```
 
-# Start the API (Production Mode)
+### Start the API (Production Mode)
     ```bash
     npm start
     ```
 
 ## API Endpoints
-# POST /api
+### POST /api
 - Description: This endpoint is used to create a new person in the database.
 - Request: Expects a JSON object in the request body containing person data.
 - Response:
     - If the person is successfully created, it returns a JSON response with a success message and the ID of the newly created person.
     - If there is an error, it returns an error response with a message.
 
-# GET /api
+### GET /api
 - Description: This endpoint retrieves information about a person based on their user ID.
 - Request: Expects a query parameter user_id in the URL to specify which person to retrieve.
 - Response:
@@ -72,7 +72,7 @@ You can run the API in development or production mode.
     - If the person doesn't exist, it returns a 404 error response with a message.
     - If the request is invalid, it returns a 400 error response.
 
-# PUT /api
+### PUT /api
 - Description: This endpoint is used to update the information of a person based on their user ID.
 - Request: Expects a query parameter user_id in the URL to specify which person to update. The updated person data should be in the request body.
 - Response:
@@ -80,7 +80,7 @@ You can run the API in development or production mode.
     - If the person doesn't exist, it returns a 404 error response with a message.
     - If the request is invalid, it returns a 400 error response.
 
-# PUT /api
+### PUT /api
 - Description: This endpoint is used to delete a person based on their user ID.
 - Request: Expects a query parameter user_id in the URL to specify which person to delete. The request body is not used.
 - Response:

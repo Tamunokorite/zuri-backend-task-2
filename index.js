@@ -62,7 +62,7 @@ app.put("/api", async (req, res) => {
             const updateRes = await userRef.update(req.body);
             res.status(200).json({
                 "type": "success",
-                "message": "User Updated Successfully"
+                "message": "Person Updated Successfully"
             }); 
         }
     } else {
