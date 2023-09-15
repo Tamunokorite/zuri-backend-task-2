@@ -9,9 +9,6 @@ This is a sample README.md file for a Node.js Express API using Firebase for aut
 - [Configuration](#configuration)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Prerequisites
 - Node.js and npm installed

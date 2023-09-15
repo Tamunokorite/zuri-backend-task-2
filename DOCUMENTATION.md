@@ -6,7 +6,6 @@ Welcome to the API documentation for the "zuri-backend-task-2" project. This doc
 - [Standard Request/Response Formats](#standard-requestresponse-formats)
 - [Sample API Usage](#sample-api-usage)
 - [Known Limitations](#known-limitations)
-- [Setup and Deployment](#setup-and-deployment)
 
 ## Standard Request/Response Formats
 
