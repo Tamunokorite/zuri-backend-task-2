@@ -3,7 +3,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const db = require('./firebase');
-const { Timestamp } = require('firebase-admin/firestore');
 
 
 const app = express();
