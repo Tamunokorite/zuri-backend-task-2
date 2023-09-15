@@ -13,8 +13,6 @@ app.use(bodyParser.json());
 app.use(cors({origin: true}));
 
 
-const today = new Date();
-const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 app.post("/api", async (req, res) => {
     const person = req.body;
     person.created = new Date();
